@@ -4,7 +4,9 @@
 
 ## 내려받기
 
-[Releases](../../releases/latest)에서 `화면판서_v1.1.zip`을 받아 압축을 풀고 `Panseo.exe`를 실행하세요.
+**[여기를 눌러 내려받기 (panseo.zip, v1.1)](https://github.com/bottlehoney99/class-panseo/raw/main/download/panseo.zip)**
+
+받은 zip의 압축을 풀고 `Panseo.exe`를 실행하세요. 설치는 필요 없습니다.
 
 서명이 없는 프로그램이라 처음 실행할 때 "Windows의 PC 보호" 창이 뜰 수 있습니다. **추가 정보** → **실행**을 누르면 됩니다.
 
@@ -25,7 +27,7 @@
 ```sh
 sudo apt install mingw-w64
 ./build.sh            # Panseo.exe 생성
-python3 pack.py 1.1   # dist/화면판서_v1.1.zip 생성
+python3 pack.py 1.1   # dist/화면판서_v1.1.zip 생성 → download/panseo.zip으로 복사해 올리면 내려받기 링크가 갱신됨
 ```
 
 Windows 10/11 64비트에서 동작합니다.
